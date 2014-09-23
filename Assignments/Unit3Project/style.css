@@ -1,6 +1,6 @@
 
 body {
-	background-image:url("stripes.png"), url("background.jpg");
+	background-image:url("../assets/stripes.png"), url("../assets/background.jpg");
 	background-repeat: repeat-x, no-repeat;
 	background-attachment:fixed;
 	background-color:#53586B;
@@ -24,7 +24,7 @@ hr{
 	margin-bottom:20px;
 }
 
-a[href="background.jpg"] {
+a[href="../assets/background.jpg"] {
 	border:none;
 	outline:none;
 }
