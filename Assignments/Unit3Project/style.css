@@ -3,7 +3,6 @@ body {
 	background-image:url("Assets/stripes.png"), url("Assets/background.jpg");
 	background-repeat: repeat-x, no-repeat;
 	background-attachment:fixed;
-	background-color:#53586B;
 	font-family:Helvetica;
 	font-weight:lighter;
 	font-size:20px;
