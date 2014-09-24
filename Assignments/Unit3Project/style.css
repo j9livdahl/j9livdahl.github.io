@@ -1,6 +1,6 @@
 
 body {
-	background-image:url("stripes.png"), url("background.jpg");
+	background-image:url("Assets/stripes.png"), url("Assets/background.jpg");
 	background-repeat: repeat-x, no-repeat;
 	background-attachment:fixed;
 	background-color:#53586B;
