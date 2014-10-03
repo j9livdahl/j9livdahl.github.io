@@ -91,17 +91,17 @@ ul {
 }
 
 a:link {
-	color:rgb(255,255,255);
+	color:rgb(39,47,50);
 	text-decoration: none;
 }
 
 a:visited {
-	color:rgb(255,255,255);
+	color:rgb(39,47,50);
 	text-decoration: none;
 }
 
 a:active {
-	color:rgb(255,255,255);
+	color:rgb(39,47,50);
 	text-decoration: underline;
 }
 
