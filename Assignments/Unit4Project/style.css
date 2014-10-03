@@ -1,0 +1,108 @@
+
+body {
+	background:url("images/bg.jpeg")no-repeat;
+	background-color:none;
+	background-attachment: fixed;
+	background-size:cover;
+	text-align: left;
+	margin:100px 100px;
+	text-align:center;
+	width:500px;
+}
+
+h1{
+	background:url("images/wordmark.jpg")no-repeat;
+	width:148px;
+	height:148px;
+	padding:1px;
+	margin:auto;
+
+	/* Hide Text */
+	text-indent:9999px;
+	white-space:nowrap;
+	overflow:hidden;
+}
+
+div#content{
+	background-color:rgba(218,234,239,.9);
+	display:block;
+	height:645px;
+	width:490px;
+	border-radius:20px;
+	padding:15px;
+	margin-top:20px;
+	margin-left:5px;
+	overflow:hidden;
+}
+
+.info {
+	font-family:'raleway', helvetica;
+	font-size:14px;
+	font-weight: 300;
+	line-height:9px;
+	letter-spacing:1px;
+}
+
+#body {
+	font-family:'merriweather', serif;
+	font-size:15px;
+	font-weight:300;
+	line-height:28px;
+	padding:5px;
+}
+
+#hours {
+	font-family:'raleway', helvetica;
+	font-size:16px;
+	font-weight: 600;
+	font-style:bold;
+}
+
+.day {
+	font-family:'raleway', helvetica;
+	font-size:14px;
+	font-weight: 300;
+	line-height: 15px;
+}
+
+hr{
+	width:30px;
+	height:4px;
+	background-color:#ff3d2e;
+	color:#ff3d2e;
+	border:0 none;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+ul {
+    font-family:'raleway',helvetica;
+    text-transform:uppercase;
+    color:white;
+    font-style:bold;
+    font-weight: 600;
+    font-size: 18px;
+    line-height:35px;
+    list-style-type: none;
+    text-align: right;
+    position:fixed;
+    top:30px;
+    right:20px;
+}
+
+a:link {
+	color:rgb(255,255,255);
+	text-decoration: none;
+}
+
+a:visited {
+	color:rgb(255,255,255);
+	text-decoration: none;
+}
+
+a:active {
+	color:rgb(255,255,255);
+	text-decoration: underline;
+}
+
+
