@@ -125,8 +125,8 @@ h3 {
 
 footer {
 	width:100%;
-	margin:0;
-	padding:50px 0 0 0;
+	margin:0 0 50px 0;
+	padding:50px 0 50px 0;
 	position: absolute;
   	background: #5A5E5E;  
 }
