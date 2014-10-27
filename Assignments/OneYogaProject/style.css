@@ -1,6 +1,5 @@
 body {
 	background-color:#F7F4ED;
-	text-align: center;
 	font-family: 'Lato 300', sans-serif;
 }
 
@@ -80,7 +79,7 @@ a:active {
 
 .promocontainer{
 	height:240px;
-	margin:10px auto;
+	margin:5px auto 30px auto;
 	/*border:solid;
 	border-color:#5A5E5E;*/
 }
@@ -128,7 +127,6 @@ footer {
 	width:100%;
 	margin:0;
 	padding:50px 0 0 0;
-	height:500px;
 	position: absolute;
   	background: #5A5E5E;  
 }
@@ -136,43 +134,11 @@ footer {
 footer {
     overflow-x: hidden;
 }
-/*
-#directions {
-	width:500px;
-	padding:25px;
-	float:left;
-	margin:0 20px;
-	/*border:solid;
-	border-color:white;
-}
 
-#info {
-	width:500px;
-	padding:0 25px;
-	margin:0 20px;
-	text-align: left;
-	font-size:12px;
-	line-height: 20px;
-	font-weight: 300;
-	/*border:solid;
-	border-color:white;
-}
-
-#emailentry {
-	width:500px;
-	display: inline;
-	float:left;
-	border:solid;
-	border-color:white;
-	clear:both;
-}
-*/
-
-#directions, #emailentry{
+#directions, #emailentry {
 	width:40%;
 	float:left;
-	padding:10px;
-	margin:10px;
+	margin:40px;
 }
 
 #directions {
@@ -181,20 +147,20 @@ footer {
 }
 
 #info {
-	margin:0 20px;
+	margin:0 40px;
 	text-align: left;
 	font-size:12px;
 	line-height: 20px;
 	font-weight: 300;
 	position:absolute;
-	top:380px;
+	top:400px;
 	/*border:solid;
 	border-color:white;*/
 }
 
 #emailentry {
 	width:538px;
-	height:320px;
+	height:290px;
 	border:solid;
 	border-color:#00BDA9;
 }
@@ -219,15 +185,32 @@ em {
 	color:#FF5B4A;
 }
 
-input {
-	width: 80%;
+#emailfield {
+	width: 60%;
+	height:50px;
 	font-size: 16px;
-	margin-top: 15px;
+	float:left;
+	margin-top:25px;
+	margin-left: 30px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	position: relative;
-	padding: 15px 15px;
+	padding: 15px;
 	height: auto;
+}
+
+.submitbutton {
+	width:20%;
+	height:50px;
+	margin-top:25px;
+	margin-left:15px;
+	margin-right:20px;
+	display: inline;
+	text-align:center;
+	color:#FF5B4A;
+	letter-spacing: 2px;
+	font-size: 18px;
+	font-weight: 700;
 }
 
 
