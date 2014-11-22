@@ -2,46 +2,78 @@ body {
 	background-color:#F7F4ED;
 	font-family: 'Lato 300', sans-serif;
 	margin:0 auto;
+	font-size:16px;
 }
 
 
-#subheader {
-	margin:60px auto;
+nav, header{
+	/*border:solid;
+	border-color:#5A5E5E;*/
+}
+
+header {
+	width:95%;
+	height:150px;
+	margin:5px auto 5px auto;
 	padding:1%;
-	text-align: left;
-	border:solid;
-	border-color: black;
 }
 
-#logo{
+#content, .promocontainer {
+	width:95%;
+	margin:1%;
+	padding:1%;
+	/*border:solid;
+	border-color:#5A5E5E;*/
+}
+
+#missioncontainer {
+	width:95%;
+	padding:1%;
+	margin:1% auto;
+	/*border:solid;
+	border-color:#5A5E5E;*/
+}
+
+#missiontextbox {
+	width:42%;
 	float:left;
-	margin-right:30px;
+	margin:10% auto 10% 5%;
+	padding:1% auto;
+	text-align:center;
+	padding:20% auto 1% auto;
+	font-size: 1.25em;
+	font-weight: 300;
+	line-height: 1.5em;
+
+}
+
+#content{
+	overflow:hidden;
+}
+
+#logo {
+	float:left;
 	width:20%;
+	margin-right:30px;
 	padding:20px;
 }
 
-ul#nav{
+nav{
+	width:70%;
+	height:50px;
+	margin:10px auto;
 	text-align: center;
+	float:right;
+	display:inline;
 	padding-top:55px;
 }
 
 li.menulink{
 	margin:15px;
 	display:inline;
-	float:left;
-	font-size:14px;
+	font-size:.938em;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-}
-
-
-ul#subnav {
-	list-style-type: none;
-	display:inline;
-}
-
-li.submenulink {
-	display: inline;
 }
 
 a {
@@ -61,28 +93,91 @@ a:active {
 	background-color:#FF5B4A;
 }
 
-#whoweare{
-	width:100%;
+/*#content{
+	margin: 10px auto;
+	padding:20px;
+}*/
+
+#missioncontainer {
+	width:95%;
 	height:500px;
+	margin:auto;
+	padding:1%;
+	/*border:solid;
+	border-color:#5A5E5E;*/
 }
 
-#hours{
+#missionimg{
+	background: #ffffff url("imgs/woman.jpg") no-repeat right center;
+	margin:10px;
+	width:723px;
+	height:480px;
+	display: inline;
+	float:right;
+}
+
+#missiontext{
+	width:40%;
+	display: inline;
+	float: left;
+	clear:both;
+	line-height: 40px;
+	margin:150px auto 0 30px;
+	text-align: center;
+	font-size: 1.375em;
+	font-weight: 100;
+	/*border:solid;
+	border-color:#5A5E5E;
+	/*padding:1% auto;*/
+}
+
+.promocontainer{
+	height:240px;
+	margin:5px auto 30px auto;
+	/*border:solid;
+	border-color:#5A5E5E;*/
+}
+
+.promoblocks{
+	width:30%;
+	height:85%;
+	margin:1%;
+	float: left;
+	border:solid;
+	border-width:8px;
+	border-color:white;
+}
+
+h1{
 	width:100%;
-	height:300px;
+	margin: 90px auto 10px auto;
+	font-size:2em;
+	text-align: center;
+	font-weight:900;
+	color:#5A5E5E;
 }
 
-#studiospace{
-	width:100%;
-	height:300px;
+hr {
+	background-color: #00BDA9;
+	border-style:none;
+	width: 50px;
+	height:5px;
 }
 
-#parking{
-	width:100%;
-	height:300px;
+p{
+	width:80%;
+	padding:50px;
 }
 
+h2 {
+	margin-bottom: 10px;
+	font-size:1.5em;
+}
 
-
+h3 {
+	color:white;
+	display: inline;
+}
 
 footer {
 	margin-top:50px;
@@ -108,7 +203,7 @@ footer {
 #directioninfo {
 	float:left;
 	display:inline;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 30px;
 	padding:10px;
 	width:470px;
@@ -137,14 +232,14 @@ footer {
 #emailentry h1 {	
 	/*margin-left:35px;*/
 	color:white;
-	font-size:28px;
+	font-size:1.75em;
 	text-align: left;
 	font-weight: 500;
 }
 
 #emailentry h2{
 	color:white;
-	font-size:14px;
+	font-size:.875em;
 	text-align: left;
 	font-weight: 300;
 }
@@ -155,7 +250,7 @@ em {
 
 #emailfield {
 	width: 60%;
-	font-size: 16px;
+	font-size: 1em;
 	float:left;
 	clear:both;
 	margin:2%;
@@ -202,7 +297,7 @@ em {
 	cursor:pointer;
 	color:#666666;
 	font-family:Verdana;
-	font-size:16px;
+	font-size:1em;
 	font-weight:bold;
 	padding:14px 35px;
 	text-decoration:none;
@@ -244,7 +339,7 @@ em {
 	cursor:pointer;
 	color:#666666;
 	font-family:Verdana;
-	font-size:16px;
+	font-size:1em;
 	font-weight:bold;
 	padding:10px;
 	text-decoration:none;
@@ -283,4 +378,151 @@ a:visited {
 a.socialIcons:active {
 	background-color:none;
 }
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 800px) {
+	body {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	body {
+		font-size: 12px;
+	}
+	header {
+		width:100%;
+		overflow:none;
+		height:30em;
+		padding:.5em;
+	}
+	#logo {
+		width:55%;
+		padding-left: 6em;
+		display:block;
+		margin:0 auto;
+	}
+
+	nav{
+		width:105%;
+		height:20em;
+		background-color:#F7F4ED;
+		margin:0 auto;
+		padding:.5em;
+		/*background:red;*/
+	}
+
+	li.menulink {
+		width:100%;
+		margin:1em auto;
+		padding: .5em auto;
+		display:block;
+    	letter-spacing: 0.15em;
+    	line-height: 3.2em;
+    	border-bottom: .4em solid #FF5B4A;
+    	font-size:12px;
+		/*outline-width: .5em;
+		width:100%;
+		padding:.5em auto;
+		margin:.5em auto;
+		line-height: 5em;*/
+	}
+
+	a:hover {
+		display: none;
+	}
+
+	a:active {
+		display:none;
+	}
+
+	/*#missioncontainer {
+	width:95%;
+	border:solid;
+	border-color:#5A5E5E;
+	padding:1%;
+	margin:1% auto;
+	}*/
+
+	#missiontextbox {
+	width:85%;
+	float:none;
+	margin:1% auto;
+	/*padding:1% auto;
+	text-align:center;
+	padding:20% auto 1% auto;
+	font-size: 1.25em;
+	font-weight: 300;
+	line-height: 1.5em;*/
+	}
+
+	#missionimg{
+	display:none;
+	}
+
+	#missioncontainer {
+	height:14em;
+	}
+
+	.promocontainer{
+	height:45em;
+	margin:5px auto;
+	/*border:solid;
+	border-color:#5A5E5E;*/
+	}
+
+	.promoblocks{
+	width:85%;
+	height:12em;
+	margin:3% auto;
+	float: none;
+	}
+
+	h1{
+	margin: 1.5em auto;
+}
+
+footer {
+	margin:1% auto;
+	padding:5em auto 5em auto;
+	height:80em;
+}
+
+/* NO SURE HOW TO SHRINK DOWN MAP 
+script #map {
+	display:none;
+}*/
+
+#directions {
+	width:70%;
+	height:150px;
+	margin:5% auto;
+	padding:2% auto;
+	float: none;
+	display:inline-block;
+	text-align: center;
+}
+
+#emailentry {
+	float:none;
+	display: block;
+	margin:10em auto 1em auto;
+	width:70%;
+	height:20em;
+}
+
+#emailfield {
+	width: 95%;
+	font-size: 1em;
+	float:left;
+}
+
+h2 {
+	font-size:2em;
+}
+
+
+
+
 
