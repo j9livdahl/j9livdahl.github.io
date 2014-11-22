@@ -500,7 +500,7 @@ script #map {
 	margin:5% auto;
 	padding:2% auto;
 	float: none;
-	display:inline-block;
+	display:none;
 	text-align: center;
 }
 
