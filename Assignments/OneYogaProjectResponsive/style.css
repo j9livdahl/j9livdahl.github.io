@@ -110,7 +110,7 @@ a:active {
 #missionimg{
 	background: #ffffff url("imgs/woman.jpg") no-repeat right center;
 	margin:10px;
-	width:723px;
+	width:600px;
 	height:480px;
 	display: inline;
 	float:right;
@@ -416,6 +416,7 @@ a.socialIcons:active {
 	li.menulink {
 		width:100%;
 		margin:1em auto;
+		height:4em;
 		padding: .5em auto;
 		display:block;
     	letter-spacing: 0.15em;
@@ -485,8 +486,8 @@ a.socialIcons:active {
 
 footer {
 	margin:1% auto;
-	padding:5em auto 5em auto;
-	height:80em;
+	padding-top: .5em;
+	height:70em;
 }
 
 /* NO SURE HOW TO SHRINK DOWN MAP 
@@ -500,16 +501,16 @@ script #map {
 	margin:5% auto;
 	padding:2% auto;
 	float: none;
-	display:none;
+	display:none;/*CAN'T FIGURE OUT HOW TO RESIZE MAP*/
 	text-align: center;
 }
 
 #emailentry {
 	float:none;
 	display: block;
-	margin:10em auto 1em auto;
+	margin:15em auto 1em auto;
 	width:70%;
-	height:20em;
+	height:23em;
 }
 
 #emailfield {
