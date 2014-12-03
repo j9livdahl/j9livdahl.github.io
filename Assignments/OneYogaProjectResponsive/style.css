@@ -109,7 +109,7 @@ a:active {
 
 #missionimg{
 	background: #ffffff url("imgs/woman.jpg") no-repeat right center;
-	margin:10px;
+	margin:1% auto;
 	width:600px;
 	height:480px;
 	display: inline;
@@ -117,18 +117,17 @@ a:active {
 }
 
 #missiontext{
-	width:40%;
+	width:75%;
 	display: inline;
 	float: left;
 	clear:both;
 	line-height: 40px;
-	margin:150px auto 0 30px;
+	margin:150px auto 0 20px;
 	text-align: center;
-	font-size: 1.375em;
+	font-size: .8em;
 	font-weight: 100;
-	/*border:solid;
+	border:solid;
 	border-color:#5A5E5E;
-	/*padding:1% auto;*/
 }
 
 .promocontainer{
@@ -170,8 +169,7 @@ p{
 }
 
 h2 {
-	margin-bottom: 10px;
-	font-size:1.5em;
+	font-size:1em;
 }
 
 h3 {
@@ -180,8 +178,8 @@ h3 {
 }
 
 footer {
-	margin-top:50px;
-	height:500px;
+	margin:50px auto 5px auto;
+	height:600px;
   	background: #5A5E5E;
 	/*overflow-x: hidden;
     overflow-y: scroll;*/
@@ -249,14 +247,14 @@ em {
 }
 
 #emailfield {
-	width: 60%;
+	width: 62%;
 	font-size: 1em;
 	float:left;
 	clear:both;
-	margin:2%;
+	margin:3% auto;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	padding: 15px;
+	padding: 3%;
 	height: auto;
 }
 
@@ -275,9 +273,9 @@ em {
 }*/
 
 .myButton { /*Submit Button*/
-	float:left;
+	float:right;
 	clear:right;
-	margin:2%;
+	margin:2% auto;
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -431,20 +429,7 @@ a.socialIcons:active {
 	}
 
 	a:hover {
-		display: none;
-	}
-
-	a:active {
-		display:none;
-	}
-
-	/*#missioncontainer {
-	width:95%;
-	border:solid;
-	border-color:#5A5E5E;
-	padding:1%;
-	margin:1% auto;
-	}*/
+		background-color:#F7F4ED;	}
 
 	#missiontextbox {
 	width:85%;
@@ -482,46 +467,54 @@ a.socialIcons:active {
 
 	h1{
 	margin: 1.5em auto;
-}
+	}
 
-footer {
+	footer {
 	margin:1% auto;
 	padding-top: .5em;
 	height:70em;
-}
+	}
 
-/* NO SURE HOW TO SHRINK DOWN MAP 
-script #map {
-	display:none;
-}*/
-
-#directions {
-	width:70%;
-	height:150px;
+	#directions {
+	width:85%;
+	height:20%;
 	margin:5% auto;
 	padding:2% auto;
 	float: none;
-	display:none;/*CAN'T FIGURE OUT HOW TO RESIZE MAP*/
+	display:block;
 	text-align: center;
-}
+	}
 
-#emailentry {
+	#emailentry {
 	float:none;
-	display: block;
-	margin:15em auto 1em auto;
-	width:70%;
-	height:23em;
-}
+	margin:8em auto 1em auto;
+	padding:1% auto;
+	width:75%;
+	height:35%;
+	font-size: 1.2em;
+	}
 
-#emailfield {
-	width: 95%;
-	font-size: 1em;
+	#emailfield {
+	width: 80%;
+	font-size: 2em;
 	float:left;
-}
+	clear:both;
+	margin:3% auto;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding: 3%;
+	height: auto;
+	}
 
-h2 {
-	font-size:2em;
-}
+	#emailfield {
+	width: 98%;
+	margin:1% auto;
+	font-size: 1em;
+	}
+
+	h2 { /* CAN'T GET JOIN OUR EMAIL LIST....TEXT TO ENLARGE */
+
+	}
 
 
 
