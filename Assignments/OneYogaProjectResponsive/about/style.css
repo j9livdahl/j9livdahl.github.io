@@ -203,7 +203,7 @@ hr {
 	top:1px;
 }
 
-/*MEDIA QUERIES*/
+/*MEDIA QUERIES FOR ABOUT PAGE*/
 
 @media only screen and (max-width: 400px) {
 	body {
@@ -224,7 +224,7 @@ hr {
 	}
 
 	nav{
-		width:105%;
+		width:95%;
 		height:20em;
 		background-color:#F7F4ED;
 		margin:0 auto;
